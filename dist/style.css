@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Hurricane&family=Roboto:wght@100&display=swap");
+
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQdL0UYVNBKyzQVZraSk8WPr6Q6nCeryv4PA&usqp=CAU");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.cabecalho {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Hurricane", cursive;
+}
+
+.add {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.add label {
+  font-size: 25px;
+}
+
+.add input {
+  border-radius: 20px;
+
+  font-size: 25px;
+}
+
+.add button {
+  border-radius: 20px;
+  padding: 20px;
+  background-color: green;
+  color: white;
+}
+
+.listas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+* h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  margin: 10px;
+}
+
+#frutas {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  white-space: normal;
+  padding: 10px;
+  margin: 10px;
+  color: black;
+}
+
+#laticinios {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+
+#congelados {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+
+#doces {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+}
